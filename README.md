@@ -19,9 +19,9 @@ import Snodeify from 'snodeify'
 Create a config file as JS object
 ```javascript
 const snodeify = Snodeify.withConfig({
-    authEndpoint,
     redirectURL,
     clientID,
+    clientSecret,
     responseType,
     scopes
 })

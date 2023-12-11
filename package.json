@@ -1,0 +1,28 @@
+{
+  "name": "snodeify",
+  "version": "0.0.1",
+  "description": "A Node.js wrapper for Spotify's Web API used for educational purposes.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anjerodesu/Snodeify.git"
+  },
+  "author": "Angelo Villegas <hello@angelovillegas.com> (https://angelovillegas.com)",
+  "license": "ISC",
+  "keywords": [
+    "Spotify",
+    "Spotify API",
+    "Nodejs"
+  ],
+  "bugs": {
+    "url": "https://github.com/anjerodesu/Snodeify/issues"
+  },
+  "homepage": "https://github.com/anjerodesu/Snodeify#readme",
+  "dependencies": {
+    "qs": "*"
+  }
+}
