@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,8 @@
   "keywords": [
     "Spotify",
     "Spotify API",
-    "Nodejs"
+    "Nodejs",
+    "fetch"
   ],
   "bugs": {
     "url": "https://github.com/anjerodesu/Snodeify/issues"
@@ -24,5 +25,9 @@
   "homepage": "https://github.com/anjerodesu/Snodeify#readme",
   "dependencies": {
     "qs": "*"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
   }
 }
